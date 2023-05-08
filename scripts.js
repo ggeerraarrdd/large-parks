@@ -15,14 +15,14 @@ let map_marker_title = parseFloat(document.getElementById('map').getAttribute("m
 let doubleQuote = ' " ';
 
 async function initMap() {
-  // The location of Uluru
+  // The location of Park
   const position = { lat: map_lat, lng: map_lng };
   // Request needed libraries.
   //@ts-ignore
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerView } = await google.maps.importLibrary("marker");
 
-  // The map, centered at Uluru
+  // The map, centered at Park
   map = new Map(document.getElementById("map"), {
     zoom: map_zoom,
     center: position,
