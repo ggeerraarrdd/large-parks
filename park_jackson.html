@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="scripts.js"></script>
+    <title>Chicago's Large Parks</title>
+</head>
+
+<body>
+
+
+
+    <!-- Park - Header -->
+    <div class="container-all-header"
+        style="background-image: url(images/bgimage_jackson.png); background-size: cover;">
+        <div class="header">
+            <!-- Park - Header - Tag -->
+            <div class="header-text-1">LARGE PARK</div>
+            <!-- Park - Header - Dropdown Navigation -->
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Jackson Park
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="park_burnham.html">Burnham Park</a></li>
+                    <li><a class="dropdown-item" href="park_garfield.html">Garfield Park</a></li>
+                    <li><a class="dropdown-item" href="park_grant.html">Grant Park</a></li>
+                    <li><a class="dropdown-item" href="park_lincoln.html">Lincoln Park</a></li>
+                    <li><a class="dropdown-item" href="park_washington.html">Washington Park</a></li>
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <!-- Park - Header - Basic Facts -->
+            <div class="header-text-3">
+                Size: 552 acres<br>
+                Created: 1871<br>
+                Community Areas: Hyde Park, Woodlawn
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Park - Body -->
+    <div class="container-all-body">
+
+        <!-- Park - Body - Text - Description -->
+        <div class="park-text">
+            <div class="park-text-heading">
+                Description
+            </div>
+            <div class="park-text-body">
+                Located in the Woodlawn community, Jackson Park totals 552 acres and features a gymnasium, three
+                multi-purpose rooms, and fitness center. Green features of the park include Wooded Island - which
+                includes the Japanese Garden - Bobolink Meadows, cherry blossom trees around the Columbian Basin, and a
+                vegetable and flower garden. Outside, the park offers three harbors, 63rd St. Beach, basketball/tennis
+                courts, multi-purpose fields, golf course, golf driving range and an artificial turf field.
+            </div>
+        </div>
+
+        <!-- Park - Body - Map -->
+        <div id="map" map-lat="41.789379" map-lng="-87.584064" map-zoom="21" map-marker-title="Jackson Park"></div>
+
+        <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+                ({ key: "AIzaSyDKI3PmtFXLx2kKwZOAo8JAV12roGuP_Ts", v: "beta" });</script>
+
+        <!-- Park - Body - Text - History -->
+        <div class="park-text">
+            <div class="park-text-heading">
+                History
+            </div>
+            <div class="park-text-body">
+                After the state legislature created the South Park Commission in 1869, the renowned designers of New
+                York's Central Park, <a href="https://en.wikipedia.org/wiki/Frederick_Law_Olmsted">Frederick Law
+                    Olmsted</a> and <a href="https://en.wikipedia.org/wiki/Calvert_Vaux">Calvert Vaux</a>, were hired to
+                lay out the 1055-acre park. The South Park Commissioners acquired land for the park from 1869 until 1930
+                through multiple sources. Known originally as South Park, the landscape had eastern and western
+                divisions connected by a grand boulevard named the Midway Plaisance. The eastern division became known
+                as Lake Park; however, in 1880 the commission asked the public to suggest official names for both the
+                eastern and western Divisions. Jackson and Washington were proposed, and the following year, Lake Park
+                was renamed Jackson Park to honor Andrew Jackson (1767-1845), the seventh president of the United
+                States.<br>
+                <br>
+                In 1890, Chicago won the honor of hosting the <a
+                    href="https://en.wikipedia.org/wiki/World%27s_Columbian_Exposition">World's Columbian
+                    Exposition</a>, and Jackson Park was
+                selected as its site. Olmsted and Chicago's famous architect and planner <a
+                    href="https://en.wikipedia.org/wiki/Daniel_Burnham">Daniel H. Burnham</a> laid out the
+                fairgrounds. A team of the nation's most significant architects and sculptors created the "White City"
+                of plaster buildings and artworks. The monumental World's Fair opened to visitors on May 1, 1893. After
+                it closed six months later, the site was transformed back into parkland. Jackson Park featured the first
+                public golf course west of the Alleghenies, which opened in 1899. In 1934, the park became part of the
+                Chicago Park District's portfolio when the 22 park districts were consolidated. Today, two structures
+                remain as impressive symbols of the World's Columbian Exposition. The "Golden Lady" sculpture is a
+                smaller version of Daniel Chester French's Statue of the Republic which originally stood at the foot of
+                the Court of Honor. The original Fine Arts Palace now houses Chicago's <a
+                    href="https://en.wikipedia.org/wiki/Museum_of_Science_and_Industry_(Chicago)">Museum of Science and
+                    Industry</a>.
+            </div>
+        </div>
+
+        <!-- Park - Body - Photos -->
+        <div class="band-park">
+            <div class="card-park" style="background-image: url(images/photos_jackson_1.png); background-size: cover;">
+                <p class="card-park-label">Jackson Park Community Garden</p>
+            </div>
+            <div class="card-park" style="background-image: url(images/photos_jackson_2.png); background-size: cover;">
+                <p class="card-park-label">Women's Garden, 1937 (destroyed)</p>
+            </div>
+            <div class="card-park" style="background-image: url(images/photos_jackson_3.png); background-size: cover;">
+                <p class="card-park-label">Women's Garden, 1937 (destroyed)</p>
+            </div>
+            <div class="card-park" style="background-image: url(images/photos_jackson_4.png); background-size: cover;">
+                <p class="card-park-label">Japanese Garden</p>
+            </div>
+            <div class="card-park" style="background-image: url(images/photos_jackson_5.png); background-size: cover;">
+                <p class="card-park-label">A fire hydrant growing at Wooded Island</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Park - Footer -->
+    <div class="footer">
+        Text by Chicago Park District. Photos by Gerard Bul-lalayao. Satellite images by Google, Maxar Technologies.
+    </div>
+
+
+
+</body>
+
+</html>

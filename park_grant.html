@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="scripts.js"></script>
+    <title>Chicago's Large Parks</title>
+    <meta name="description" content="Large public parks of Chicago">
+    <meta name="keywords" content="Public park, Chicago">
+    <meta name="author" content="Gerard Bul-lalayao">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+
+    <!-- Park - Header -->
+    <div class="container-all-header" style="background-image: url(images/bgimage_grant.png); background-size: cover;">
+        <div class="header">
+            <!-- Park - Header - Tag -->
+            <div class="header-text-1">LARGE PARK</div>
+            <!-- Park - Header - Dropdown Navigation -->
+            <div class="dropdown">
+                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Grant Park
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="park_burnham.html">Burnham Park</a></li>
+                    <li><a class="dropdown-item" href="park_garfield.html">Garfield Park</a></li>
+                    <li><a class="dropdown-item" href="park_jackson.html">Jackson Park</a></li>
+                    <li><a class="dropdown-item" href="park_lincoln.html">Lincoln Park</a></li>
+                    <li><a class="dropdown-item" href="park_washington.html">Washington Park</a></li>
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <!-- Park - Header - Basic Facts -->
+            <div class="header-text-3">
+                Size: 313 acres<br>
+                Created: 1835<br>
+                Community Areas: The Loop
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Park - Body -->
+    <div class="container-all-body">
+
+        <!-- Park - Body - Text - Description -->
+        <div class="park-text">
+            <div class="park-text-heading">
+                Description
+            </div>
+            <div class="park-text-body">
+                Proudly referred to as "Chicago's Front Yard," Grant Park totals 313 acres and is a public park
+                located in Chicago's central business district in the Loop Community area. Grant Park's most notable
+                features include Maggie Daley Park, <a
+                    href="https://en.wikipedia.org/wiki/Buckingham_Fountain">Buckingham Fountain</a>, the <a
+                    href="https://www.artic.edu/">Art Institute of Chicago</a> and the <a
+                    href="https://en.wikipedia.org/wiki/Museum_Campus">Museum Campus</a>.<br>
+                <br>
+                Grant Park is home to some of Chicago's most iconic landmarks and attractions. The park includes Museum
+                Campus, the site of world-class museums the Art Institute of Chicago, the Field Museum of Natural
+                History, the Shedd Aquarium and the Adler Planetarium. Grant Park's centerpiece is the Clarence
+                Buckingham Memorial Fountain, built in 1927 to provide a monumental focal point while protecting the
+                park's breathtaking lakefront views.<br>
+                <br>
+                Grant Park is also home to baseball diamonds, tennis courts and breathtaking gardens. The park plays
+                host to some the city's largest food and music festivals, including <a
+                    href="https://en.wikipedia.org/wiki/Taste_of_Chicago">The Taste of Chicago</a> — a large food
+                and music festival held around the Independence Day holiday — and The Grant Park Music Festival. Grant
+                Park is also the site of the start and finish lines for the <a
+                    href="https://en.wikipedia.org/wiki/Chicago_Marathon">Chicago Marathon</a> and <a
+                    href="https://en.wikipedia.org/wiki/Lollapalooza">Lollapalooza</a>, a popular
+                outdoor music festival.<br>
+                <br>
+                Grant Park has been the site of many large, historic civic events. In 1911, it hosted the major Chicago
+                International Aviation Meet. In 1968, it was the <a
+                    href="https://en.wikipedia.org/wiki/1968_Democratic_National_Convention_protests">scene of clashes
+                    between Chicago Police and demonstrators during the Democratic National Convention</a>. In 1979,
+                Pope John Paul II delivered an outdoor mass to a large crowd in the par,k, and in the 1990s,
+                championship celebrations for the Chicago Bulls were staged here. The park was also the location for <a
+                    href="https://en.wikipedia.org/wiki/Barack_Obama_2008_presidential_election_victory_speech">President
+                    Barack Obama's Election Day victory speech</a> on the night of November 4, 2008.
+            </div>
+        </div>
+
+        <!-- Park - Body - Map -->
+        <div id="map" map-lat="41.867944" map-lng="-87.619639" map-zoom="21" map-marker-title="Grant Park"></div>
+
+        <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
+                ({ key: "AIzaSyDKI3PmtFXLx2kKwZOAo8JAV12roGuP_Ts", v: "beta" });</script>
+
+        <!-- Park - Body - Text - History -->
+        <div class="park-text">
+            <div class="park-text-heading">
+                History
+            </div>
+            <div class="park-text-body">
+                Grant Park's beginnings date to 1835, when foresighted citizens, fearing commercial lakefront
+                development, lobbied to protect the open space. As a result, the park's original area east of Michigan
+                Avenue was designated "public ground forever to remain vacant of buildings."<br>
+                <br>
+                Officially named Lake Park in 1847, the site soon suffered from lakefront erosion. The Illinois Central
+                Railroad agreed to build a breakwater to protect the area in exchange for permission for an offshore
+                train trestle. After the Great Fire of 1871, the area between the shore and trestle became a dump site
+                for piles of charred rubble, the first of many landfill additions.<br>
+                <br>
+                In 1901, the city transferred the park to the South Park Commission, which named it for Ulysses S. Grant
+                (1822-1885), 18th President of the United States. Renowned architect Daniel H. Burnham envisioned Grant
+                Park as a formal landscape with museums and civic buildings. However, construction was stalled by
+                lawsuits launched by mail-order magnate Aaron Montgomery Ward, who sought to protect the park's open
+                character.<br>
+                <br>
+                Finally, in 1911, the Illinois Supreme Court ruled in Ward's favor. New landfill at the park's southern
+                border allowed construction of the Field Museum to begin, and the park evolved slowly. In 1934, the
+                South Park Commission was consolidated into the Chicago Park District, which completed improvements
+                using federal relief funds.<br>
+                <br>
+                At the turn of the 21st century, the north end of Grant Park underwent a multi-million-dollar facelift,
+                and what was once old railbeds were transformed into Millennium Park, a major landscape and festival
+                site."
+            </div>
+        </div>
+
+        <!-- Park - Body - Photos -->
+        <div class="band-park">
+            <div class="card-park" style="background-image: url(images/photos_grant_1.png); background-size: cover;">
+                <p class="card-park-label">View from Aon Center</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Park - Footer -->
+    <div class="footer">
+        Text by Chicago Park District. Photos by Gerard Bul-lalayao. Satellite images by Google, Maxar Technologies.
+    </div>
+
+
+
+</body>
+
+</html>

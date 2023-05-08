@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Konkhmer+Sleokchher&display=swap');
+
+
+
+body {
+  font-family: 'Chivo', sans-serif;
+  background-color: gainsboro;
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-text-size-adjust: 100%;
+}
+
+.container-all-header {
+  padding: 30px;
+}
+
+.container-all-body {
+  margin: 30px;
+  color: black;
+}
+
+
+
+.header {
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 0px;
+  height: 100vh;
+}
+
+.header-text-1 {
+  font-size: 18px;
+  color: white;
+  font-weight: normal;
+}
+
+.header-text-2 {
+  max-width: 67%;
+  font-size: 80px;
+  line-height: 1;
+  color: white;
+  font-weight: bold;
+}
+
+.header-text-3 {
+  margin-top: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: normal;
+}
+
+
+/* Dropdown Menu - Start */
+.btn {
+  margin-top: -20px;
+  padding: 0px;
+  font-family: 'Chivo', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  --bs-btn-border-width: 0px;
+}
+
+.btn-secondary {
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-active-bg: transparent;
+  --bs-btn-active-border-color: transparent;
+  --bs-btn-bg: transparent;
+  --bs-btn-border-color: transparent;
+  --bs-btn-active-shadow: transparent;
+  --bs-btn-hover-border-color: transparent;
+  --bs-btn-focus-shadow-rgb: transparent;
+}
+
+.dropdown-menu {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Chivo', sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  --bs-dropdown-link-hover-color: #0d6efd;
+  --bs-dropdown-link-hover-bg: transparent;
+  --bs-dropdown-padding-y: 0rem;
+  --bs-dropdown-link-active-color: #0d6efd;
+  --bs-dropdown-link-active-bg: transparent;
+}
+
+.dropdown-item {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown-diver {
+  height: 2px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Dropdown Menu - End */
+
+
+/* Individual Park Text - Start */
+.park-text {
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px;
+  max-width: 100%;
+}
+
+.park-text-heading {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 600px;
+}
+
+.park-text-body {
+  max-width: 600px;
+  font-size: 14px;
+}
+
+/* Individual Park Text - End */
+
+
+/* Set the size of the div element that contains the map */
+#map {
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  height: 1000px;
+  width: 100%;
+}
+
+
+
+
+.band {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+  .band {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .band {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .band {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.card {
+  padding: 30px;
+  border: 5px;
+  border-style: solid;
+  border-color: white;
+
+  background: #F0F0F0;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 350px;
+
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+  -webkit-border-radius: 0px;
+}
+
+.card-text-box {
+  background-color: white;
+}
+
+.card-text-box-special {
+  background-color: #ffd900;
+}
+
+.card-type {
+  padding: 5px;
+  background: white;
+  border: 1px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.card-title {
+  max-width: 67%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px;
+  background: white;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.card-text {
+  max-width: 67%;
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px;
+  background: white;
+  font-size: 14px;
+}
+
+.card-text-special {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px;
+  color: green;
+  font-family: 'Konkhmer Sleokchher', cursive;
+  font-size: 110px;
+  line-height: 1.1;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+/*
+Images for individual park pages.
+*/
+.band-park {
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 30px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .band-park {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .band-park {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card-park {
+  padding: 30px;
+  border: 5px;
+  border-style: solid;
+  border-color: white;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 640px;
+
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+  -webkit-border-radius: 0px;
+}
+
+.card-park-label {
+  max-width: 50%;
+  margin-top: 10px;
+  padding: 5px;
+  background: #ffd900;
+  color: green;
+  font-size: 14px;
+  line-height: 1;
+}
+
+
+.footer {
+  height: 200px;
+  margin: 30px;
+  padding: 50px;
+  border: 1px;
+  background-color: white;
+  color: #A9A9A9;
+  font-size: 14px;
+}
