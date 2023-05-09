@@ -2,7 +2,7 @@
 Website for Chicago's large public parks
 
 ## Description
-Large Parks is a simple static website for large public parks overseen by the Chicago Park District. It was built using HTML, CSS and JavaScript, and submitted as a solution to pset8 - Homepage of CS50x: Intro to Computer Science (HarvardX, May 2023).
+Large Parks is a simple static website for large public parks overseen by the Chicago Park District. It was built using HTML, CSS and JavaScript, and submitted as a solution to pset8 - Homepage of CS50x: Intro to Computer Science (HarvardX, 2023).
 
 <picture><img alt="Shelfie screenshot 1" src="images/large-parks_1.png?raw=true"></picture>
 
