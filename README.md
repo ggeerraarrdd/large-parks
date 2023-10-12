@@ -8,6 +8,9 @@ Large Parks is a simple static website for large public parks overseen by the Ch
 
 More screenshots below.
 
+## Disclaimer
+All contents in this repo are for educational purposes only.
+
 ## Learning Objectives
 
 ### Requirements
