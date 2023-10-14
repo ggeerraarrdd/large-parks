@@ -73,7 +73,7 @@ Then replace `YOUR_API_KEY` in every .html file, except index.html, with your ow
 * [@ggeerraarrdd](https://github.com/ggeerraarrdd/)
 
 ## Version History
-* 0.1
+* 1.0.0
     * May 6, 2023
     * Initial Release
 
