@@ -69,7 +69,7 @@ See [https://github.com/ggeerraarrdd/large-parks/releases](https://github.com/gg
 
 ### Initial Release
 
-The initial release of _Large Parks_ was submitted as the solution to pset8 - Homepage of [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (HarvardX, 2023)._
+The initial release of _Large Parks_ was submitted as the solution to pset8 - Homepage of [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (HarvardX, 2023).
 
 [Assignment brief](https://cs50.harvard.edu/x/2023/psets/8/homepage/) as of May 2023:
 
