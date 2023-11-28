@@ -1,6 +1,6 @@
 # Large Parks
 
-Website for Chicago's large public parks
+A website for large public parks in Chicago
 
 ## Description
 
@@ -69,18 +69,7 @@ See [https://github.com/ggeerraarrdd/large-parks/releases](https://github.com/gg
 
 ### Initial Release
 
-The initial release of _Large Parks_ was submitted as the solution to pset8 - Homepage of [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (HarvardX, 2023).
-
-[Assignment brief](https://cs50.harvard.edu/x/2023/psets/8/homepage/) as of May 2023:
-
-_Build a simple homepage using HTML, CSS, and JavaScript. The website must:_
-
-* _Contain at least four different .html pages, at least one of which is index.html \(the main page of your website\), and it should be possible to get from any page on your website to any other page by following one or more hyperlinks._
-* _Use at least ten \(10\) distinct HTML tags besides \<html\>, \<head\>, \<body\>, and \<title\>. Using some tag \(e.g., \<p\>\) multiple times still counts as just one \(1\) of those ten!_
-* _Integrate one or more features from Bootstrap into your site. Bootstrap is a popular library \(that comes with lots of CSS classes and more\) via which you can beautify your site._
-* _Have at least one stylesheet file of your own creation, styles.css, which uses at least five (5) different CSS selectors \(e.g. tag \(example\), class \.example\), or ID \(\#example\)\), and within which you use a total of at least five \(5\) different CSS properties, such as font-size, or margin._
-* _Integrate one or more features of JavaScript into your site to make your site more interactive. For example, you can use JavaScript to add alerts, to have an effect at a recurring interval, or to add interactivity to buttons, dropdowns, or forms. Feel free to be creative!_
-* _Ensure that your site looks nice on browsers both on mobile devices as well as laptops and desktops._
+The initial release of _Large Parks_ was submitted as the solution to pset8 - Homepage of [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (HarvardX, 2023). Read the [assignment brief](https://cs50.harvard.edu/x/2023/psets/8/homepage/) as of May 2023.
 
 ## Future Work
 
