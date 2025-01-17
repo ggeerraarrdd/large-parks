@@ -14,6 +14,15 @@ More screenshots below.
 
 ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
+## Features
+
+* Basic park information including location, size, and amenities
+* Detailed historical information about each park
+* Photo galleries showcasing each park's built environment
+* Interactive park maps
+* Mobile-responsive design
+* Clean, modern user interface
+
 ## Project Structure
 
 ```text
@@ -115,7 +124,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Release Notes
 
-See [https://github.com/ggeerraarrdd/large-parks/releases](https://github.com/ggeerraarrdd/large-parks/releases)
+* See [https://github.com/ggeerraarrdd/large-parks/releases](https://github.com/ggeerraarrdd/large-parks/releases)
 
 ### Initial Release
 
