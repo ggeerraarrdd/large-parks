@@ -6,7 +6,7 @@ A website for large public parks in Chicago
 
 _Large Parks_ is a simple static website for large public parks overseen by the Chicago Park District.
 
-![Large Parks](images/large-parks_1.png)
+![Large Parks](docs/large-parks_1.png)
 
 More screenshots below.
 
@@ -96,7 +96,8 @@ No ongoing development.
 
 ## Screenshots
 
-![Large Parks](images/large-parks_2.png)
-![Large Parks](images/large-parks_3.png)
-![Large Parks](images/large-parks_4.png) | ![Large Parks](images/large-parks_5.png) | ![Large Parks](images/large-parks_6.png) |
-|---|---|---|
+![Large Parks](docs/large-parks_2.png)
+![Large Parks](docs/large-parks_3.png)
+
+| ![Large Parks](docs/large-parks_4.png) | ![Large Parks](docs/large-parks_5.png) | ![Large Parks](docs/large-parks_6.png) |
+| -------------------------------------- | -------------------------------------- | -------------------------------------- |
