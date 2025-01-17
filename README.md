@@ -17,7 +17,36 @@ ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 ## Project Structure
 
 ```text
-1
+large-parks/
+│
+├── public/
+│   │
+│   ├── assets/
+│   │   ├── icons/
+│   │   │   └── favicon.ico
+│   │   │
+│   │   ├── images/
+│   │   │   ├── backgrounds/
+│   │   │   └── photos/
+│   │   │
+│   │   ├── styles/
+│   │   │   └── main.css
+│   │   │
+│   │   └── scripts/
+│   │       └── main.js
+│   │
+│   ├── index.html
+│   ├── burnham.html
+│   ├── garfield.html
+│   ├── grant.html
+│   ├── jackson.html
+│   ├── lincoln.html
+│   └── washington.html
+│
+├── docs/
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ## Prerequisites
