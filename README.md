@@ -19,7 +19,7 @@ ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 ```text
 large-parks/
 │
-├── public/
+├── website/
 │   │
 │   ├── assets/
 │   │   ├── icons/
@@ -51,10 +51,20 @@ large-parks/
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have met the following requirements:
 
-* [git](https://git-scm.com/) (for cloning the repository)
-* [http-server](https://formulae.brew.sh/formula/http-server) (for serving static files)
+1. **Development Tools**
+
+    * [git](https://git-scm.com/) (for cloning the repository)
+    * [http-server](https://formulae.brew.sh/formula/http-server) (for serving static files)
+
+2. **Google Maps API Key**
+  
+    For the embedded maps to work, you need to set up a Google Maps API Key. Before you can create one, you will need to create a Google Cloud project, for which you need a Google Cloud account.
+
+    * [Set up a Google Cloud account](https://cloud.google.com)
+    * [Set up your Google Cloud project](https://developers.google.com/maps/documentation/javascript/cloud-setup)
+    * [Create and configure your API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 ## Getting Started
 
@@ -64,27 +74,19 @@ Before you begin, ensure you have the following installed:
 
 ### Installation
 
-1. **Clone the repository:**
+1. **Clone the repository**
 
     ```bash
     git clone https://github.com/ggeerraarrdd/large-parks.git
     ```
 
-2. **Navigate into the project directory:**
+2. **Navigate into the project directory**
 
     ```bash
-    cd large-parks # For example
+    cd large-parks/website
     ```
 
-3. **Set up a Google Maps API Key:**
-
-    For the embedded maps to work, you need to set up an API Key. Before you can create one, you will need to create a Google Cloud project, for which you need a Google Cloud account.
-
-    * [Set up a Google Cloud account](https://cloud.google.com)
-    * [Set up your Google Cloud project](https://developers.google.com/maps/documentation/javascript/cloud-setup)
-    * [Using API Keys](https://developers.google.com/maps/documentation/javascript/get-api-key)
-
-4. **Add your Google Maps API Key**
+3. **Add your Google Maps API Key**
 
     In every `.html` file, except `index.html`, find the following block of JavaScript code. Replace `YOUR_API_KEY` with your own.
 
@@ -95,15 +97,15 @@ Before you begin, ensure you have the following installed:
 
 ### Usage
 
-1. **Start a server:**
+1. **Start a server**
 
     ```bash
     http-server -c-1
     ```
 
-2. **View the website:**
+2. **View the website**
 
-    Copy and open the URL(s) displayed after 'Available on:' in the terminal.
+    Copy and open the URL displayed after 'Available on'.
 
 ## Author(s)
 
