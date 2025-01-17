@@ -22,6 +22,7 @@ More screenshots below.
 * [Getting Started](#getting-started)
   * [Dependencies](#dependencies)
   * [Installation](#installation)
+  * [Configuration](#configuration)
   * [Usage](#usage)
 * [Author(s)](#authors)
 * [Version History](#version-history)
@@ -29,6 +30,7 @@ More screenshots below.
   * [Initial Release](#initial-release)
 * [Future Work](#future-work)
 * [License](#license)
+* [Contributing](#contributing)
 * [Acknowledgments](#acknowledgments)
 * [Screenshots](#screenshots)
 
@@ -113,7 +115,9 @@ Before you begin, ensure you have met the following requirements:
     cd large-parks/website
     ```
 
-3. **Add your Google Maps API Key**
+## Configuration
+
+1. **Add your Google Maps API Key**
 
     In every `.html` file, except `index.html`, find the following block of JavaScript code. Replace `YOUR_API_KEY` with your own.
 
@@ -156,6 +160,10 @@ No ongoing development.
 
 * [MIT License](https://github.com/ggeerraarrdd/large-parks/blob/main/LICENSE)
 
+## Contributing
+
+TODO
+
 ## Acknowledgments
 
 * Design inspirations from the works of [Span Studio](https://span.studio/)
@@ -178,3 +186,7 @@ No ongoing development.
 
 | ![Large Parks](docs/large-parks_4.png) | ![Large Parks](docs/large-parks_5.png) | ![Large Parks](docs/large-parks_6.png) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- |
+
+## Fronticpiece
+
+TODO
