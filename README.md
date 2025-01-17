@@ -14,48 +14,67 @@ More screenshots below.
 
 ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
+## Project Structure
+
+```text
+1
+```
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+* [git](https://git-scm.com/) (for cloning the repository)
+* [http-server](https://formulae.brew.sh/formula/http-server) (for serving static files)
+
 ## Getting Started
 
 ### Dependencies
 
 * None
 
-### Usage
+### Installation
 
-Clone it!
+1. **Clone the repository:**
 
-```bash
-git clone https://github.com/ggeerraarrdd/large-parks.git
-```
+    ```bash
+    git clone https://github.com/ggeerraarrdd/large-parks.git
+    ```
 
-Make sure you have [http-server](https://formulae.brew.sh/formula/http-server) installed, otherwise:
+2. **Navigate into the project directory:**
 
-```bash
-brew install http-server
-```
+    ```bash
+    cd large-parks # For example
+    ```
 
-Go into the project directory and run the command:
+3. **Set up a Google Maps API Key:**
 
-```bash
-http-server -c-1
-```
+    For the embedded maps to work, you need to set up an API Key. Before you can create one, you will need to create a Google Cloud project, for which you need a Google Cloud account.
 
-Open one of the URLs after `Available on`.
+    * [Set up a Google Cloud account](https://cloud.google.com)
+    * [Set up your Google Cloud project](https://developers.google.com/maps/documentation/javascript/cloud-setup)
+    * [Using API Keys](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
-### Notes on Google Maps
+4. **Add your Google Maps API Key**
 
-For the embedded maps to work, you need to use your own API Key. Before you can create one, you will need to create a Google Cloud project, for which you need a Google Cloud account.
-
-* [Set up a Google Cloud account](https://cloud.google.com)
-* [Set up your Google Cloud project](https://developers.google.com/maps/documentation/javascript/cloud-setup)
-* [Using API Keys](https://developers.google.com/maps/documentation/javascript/get-api-key)
-
-Then replace `YOUR_API_KEY` in every .html file, except index.html, with your own.
+In every `.html` file, except `index.html`, find the following block of JavaScript code. Replace `YOUR_API_KEY` with your own.
 
 ```JavaScript
 <script>(g => { var h, a, k, p = "The Google Maps JavaScript API", c = "google", l = "importLibrary", q = "__ib__", m = document, b = window; b = b[c] || (b[c] = {}); var d = b.maps || (b.maps = {}), r = new Set, e = new URLSearchParams, u = () => h || (h = new Promise(async (f, n) => { await (a = m.createElement("script")); e.set("libraries", [...r] + ""); for (k in g) e.set(k.replace(/[A-Z]/g, t => "_" + t[0].toLowerCase()), g[k]); e.set("callback", c + ".maps." + q); a.src = `https://maps.${c}apis.com/maps/api/js?` + e; d[q] = f; a.onerror = () => h = n(Error(p + " could not load.")); a.nonce = m.querySelector("script[nonce]")?.nonce || ""; m.head.append(a) })); d[l] ? console.warn(p + " only loads once. Ignoring:", g) : d[l] = (f, ...n) => r.add(f) && u().then(() => d[l](f, ...n)) })
                 ({ key: "YOUR_API_KEY", v: "beta" });</script>
 ```
+
+### Usage
+
+1. **Start a server:**
+
+    ```bash
+    http-server -c-1
+    ```
+
+2. **View the website:**
+
+    Copy and open the URL(s) displayed after 'Available on:' in the terminal.
 
 ## Author(s)
 
