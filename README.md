@@ -150,7 +150,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Initial Release
 
-The initial release of _Large Parks_ was submitted as the solution to pset8 - Homepage of [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (HarvardX, 2023). Read the [assignment brief](https://cs50.harvard.edu/x/2023/psets/8/homepage/) as of May 2023.
+The initial release of _Large Parks_ was submitted as a solution to `Homepage`, Problem Set 8 of [CS50x: Introduction to Computer Science](https://cs50.harvard.edu/x/2023/) (HarvardX, 2023). Read the [assignment brief](https://cs50.harvard.edu/x/2023/psets/8/homepage/) as of May 2023.
 
 ## Future Work
 
@@ -162,7 +162,7 @@ No ongoing development.
 
 ## Contributing
 
-TODO
+This project is not accepting contributions at this time. It is intended solely for personal learning and exploration. However, feel free to clone the repository and use it as a learning resource.
 
 ## Acknowledgments
 
@@ -187,6 +187,6 @@ TODO
 | ![Large Parks](docs/large-parks_4.png) | ![Large Parks](docs/large-parks_5.png) | ![Large Parks](docs/large-parks_6.png) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- |
 
-## Fronticpiece
+## Frontispiece
 
-TODO
+Screenshot of Landing page of Large Parks website. Image taken from website interface (Personal Collection, 2024). In the public domain.
