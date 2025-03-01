@@ -2,20 +2,13 @@
 
 A website for large public parks in Chicago
 
-## Description
+## Table of Contents
 
 > [!NOTE]
 > ALL CONTENTS IN THIS REPO ARE FOR EDUCATIONAL PURPOSES ONLY.
 
-_Large Parks_ is a simple static website for large public parks overseen by the Chicago Park District.
-
-![Large Parks](docs/large-parks_1.png)
-
-More screenshots below.
-
-## Table of Contents
-
 * [Description](#description)
+* [Target Users](#target-users)
 * [Features](#features)
 * [Project Structure](#project-structure)
 * [Prerequisites](#prerequisites)
@@ -23,7 +16,8 @@ More screenshots below.
   * [Dependencies](#dependencies)
   * [Installation](#installation)
   * [Configuration](#configuration)
-  * [Usage](#usage)
+* [Usage](#usage)
+* [System Administration](#system-administration)
 * [Author(s)](#authors)
 * [Version History](#version-history)
   * [Release Notes](#release-notes)
@@ -34,14 +28,26 @@ More screenshots below.
 * [Acknowledgments](#acknowledgments)
 * [Screenshots](#screenshots)
 
+## Description
+
+_Large Parks_ is a simple static website for large public parks overseen by the Chicago Park District.
+
+![Large Parks](docs/large-parks_1.png)
+
+## Target Users
+
+* **CS50x students** looking for inspiration for their "Homepage" pset
+* **Beginner web developer** exploring HTML, CSS, and JavaScript implementation
+* **Intermediate web developer** needing reference implementation of responsive layouts and card-based UI patterns
+* **Large Park enthusiasts**
+
 ## Features
 
-* Basic park information including location, size, and amenities
-* Detailed historical information about each park
-* Photo galleries showcasing each park's built environment
-* Interactive park maps
-* Mobile-responsive design
-* Clean, modern user interface
+* 🌳 **Park Profiles** - Comprehensive information about locations, size, and amenities
+* 🏛️ **Historical Context** - Detailed background information for each featured park
+* 🖼️ **Visual Galleries** - High-quality photos showcasing park landscapes and features
+* 📍 **Interactive Maps** - Embedded Google Maps for easy navigation and exploration
+* 💻 **Mobile Responsiveness** - Optimized viewing experience across all device sizes
 
 ## Project Structure
 
@@ -109,12 +115,6 @@ Before you begin, ensure you have met the following requirements:
     git clone https://github.com/ggeerraarrdd/large-parks.git
     ```
 
-2. **Navigate into the project directory**
-
-    ```bash
-    cd large-parks/website
-    ```
-
 ### Configuration
 
 1. **Add your Google Maps API Key**
@@ -126,21 +126,30 @@ Before you begin, ensure you have met the following requirements:
                     ({ key: "YOUR_API_KEY", v: "beta" });</script>
     ```
 
-### Usage
+## Usage
 
-1. **Start a server**
+1. **Navigate into the project directory**
+
+    ```bash
+    cd website
+
+2. **Start a server**
 
     ```bash
     http-server -c-1
     ```
 
-2. **View the website**
+3. **View the website**
 
     Copy and open the URL displayed after 'Available on'.
 
 ## Author(s)
 
 * [@ggeerraarrdd](https://github.com/ggeerraarrdd/)
+
+## System Administration
+
+* NA
 
 ## Version History
 
