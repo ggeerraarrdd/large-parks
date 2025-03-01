@@ -37,16 +37,16 @@ _Large Parks_ is a simple static website for large public parks overseen by the 
 ## Target Users
 
 * **CS50x students** looking for inspiration for their "Homepage" pset
-* **Beginner web developer** exploring HTML, CSS, and JavaScript implementation
-* **Intermediate web developer** needing reference implementation of responsive layouts and card-based UI patterns
-* **Large Park enthusiasts**
+* **Beginner web developers** exploring HTML, CSS, and JavaScript implementation
+* **Intermediate web developers** needing reference implementation of responsive layouts and card-based UI patterns
+* **Public urban park enthusiasts**, in general, **large public urban park enthusiasts**, specifically
 
 ## Features
 
 * 🌳 **Park Profiles** - Comprehensive information about locations, size, and amenities
 * 🏛️ **Historical Context** - Detailed background information for each featured park
 * 🖼️ **Visual Galleries** - High-quality photos showcasing park landscapes and features
-* 📍 **Interactive Maps** - Embedded Google Maps for easy navigation and exploration
+* 📍 **Interactive Maps** - Embedded Google Maps for complementary context
 * 💻 **Mobile Responsiveness** - Optimized viewing experience across all device sizes
 
 ## Project Structure
