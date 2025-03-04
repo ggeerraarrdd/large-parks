@@ -90,8 +90,10 @@ large-parks/
 
 ## Quick Start
 
+For those who want to get up and running quickly with default settings:
+
 ```bash
-# Clone the repository
+# Clone repository
 git clone https://github.com/ggeerraarrdd/large-parks.git
 
 # Navigate to the website directory
@@ -100,7 +102,7 @@ cd large-parks/website
 # Start the server
 http-server -c-1
 
-# Open the URL displayed in your browser
+# Navigate to the URL specified in the terminal output
 ```
 
 Note: Maps functionality will require configuring your API key as described in the Configuration section.
@@ -114,7 +116,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Development Tools**
 
     * [git](https://git-scm.com/) (for cloning the repository)
-    * [http-server](https://formulae.brew.sh/formula/http-server) (for serving static files)
+    * [http-server](https://github.com/http-party/http-server) (for serving static files)
 
 2. **Google Maps API Key**
   
@@ -162,11 +164,17 @@ Before you begin, ensure you have met the following requirements:
 
 3. **View the website**
 
-    Copy and open the URL displayed after 'Available on'.
+    Navigate to the URL specified in the terminal output. For example:
+
+    ```text
+    Available on:
+      http://127.0.0.1:8080
+      http://10.0.0.5:8080
+    ```
 
 ## Production Setup
 
-* None
+* NA
 
 ## System Administration
 
@@ -219,7 +227,7 @@ This project is not accepting contributions at this time. It is intended solely 
 ![Large Parks](assets/large-parks_3.png)
 
 | ![Large Parks](assets/large-parks_4.png) | ![Large Parks](assets/large-parks_5.png) | ![Large Parks](assets/large-parks_6.png) |
-| -------------------------------------- | -------------------------------------- | -------------------------------------- |
+| ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 
 ## Frontispiece
 
