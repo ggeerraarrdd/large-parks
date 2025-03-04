@@ -11,12 +11,14 @@ A website for large public parks in Chicago
 * [Target Users](#target-users)
 * [Features](#features)
 * [Project Structure](#project-structure)
-* [Prerequisites](#prerequisites)
-* [Getting Started](#getting-started)
+* [Quick Start](#quick-start)
+* [Local Setup](#local-setup)
+  * [Prerequisites](#prerequisites)
   * [Dependencies](#dependencies)
   * [Installation](#installation)
   * [Configuration](#configuration)
 * [Usage](#usage)
+* [Production Setup](#production-setup)
 * [System Administration](#system-administration)
 * [Author(s)](#authors)
 * [Version History](#version-history)
@@ -32,7 +34,7 @@ A website for large public parks in Chicago
 
 _Large Parks_ is a simple static website for large public parks overseen by the Chicago Park District.
 
-![Large Parks](docs/large-parks_1.png)
+![Large Parks](assets/large-parks_1.png)
 
 ## Target Users
 
@@ -84,6 +86,25 @@ large-parks/
 └── README.md
 ```
 
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/ggeerraarrdd/large-parks.git
+
+# Navigate to the website directory
+cd large-parks/website
+
+# Start the server
+http-server -c-1
+
+# Open the URL displayed in your browser
+```
+
+Note: Maps functionality will require configuring your API key as described in the Configuration section.
+
+## Local Setup
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -100,8 +121,6 @@ Before you begin, ensure you have met the following requirements:
     * [Set up a Google Cloud account](https://cloud.google.com)
     * [Set up your Google Cloud project](https://developers.google.com/maps/documentation/javascript/cloud-setup)
     * [Create and configure your API Key](https://developers.google.com/maps/documentation/javascript/get-api-key)
-
-## Getting Started
 
 ### Dependencies
 
@@ -131,7 +150,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Navigate into the project directory**
 
     ```bash
-    cd website
+    cd large-parks/website
 
 2. **Start a server**
 
@@ -143,13 +162,17 @@ Before you begin, ensure you have met the following requirements:
 
     Copy and open the URL displayed after 'Available on'.
 
-## Author(s)
+## Production Setup
 
-* [@ggeerraarrdd](https://github.com/ggeerraarrdd/)
+* None
 
 ## System Administration
 
 * NA
+
+## Author(s)
+
+* [@ggeerraarrdd](https://github.com/ggeerraarrdd/)
 
 ## Version History
 
@@ -190,10 +213,10 @@ This project is not accepting contributions at this time. It is intended solely 
 
 ## Screenshots
 
-![Large Parks](docs/large-parks_2.png)
-![Large Parks](docs/large-parks_3.png)
+![Large Parks](assets/large-parks_2.png)
+![Large Parks](assets/large-parks_3.png)
 
-| ![Large Parks](docs/large-parks_4.png) | ![Large Parks](docs/large-parks_5.png) | ![Large Parks](docs/large-parks_6.png) |
+| ![Large Parks](assets/large-parks_4.png) | ![Large Parks](assets/large-parks_5.png) | ![Large Parks](assets/large-parks_6.png) |
 | -------------------------------------- | -------------------------------------- | -------------------------------------- |
 
 ## Frontispiece
