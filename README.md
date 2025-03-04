@@ -32,7 +32,7 @@ A website for large public parks in Chicago
 
 ## Description
 
-_Large Parks_ is a simple static website for large public parks overseen by the Chicago Park District.
+_Large Parks_ is a simple static website for large public parks overseen by the [Chicago Park District](https://www.chicagoparkdistrict.com/).
 
 ![Large Parks](assets/large-parks_1.png)
 
@@ -82,7 +82,7 @@ large-parks/
 │   ├── lincoln.html
 │   └── washington.html
 │
-├── docs/
+├── assets/
 ├── .gitignore
 ├── LICENSE
 └── README.md
