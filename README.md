@@ -38,10 +38,12 @@ _Large Parks_ is a simple static website for large public parks overseen by the 
 
 ## Target Users
 
-* **CS50x students** looking for inspiration for their "Homepage" pset
-* **Beginner web developers** exploring HTML, CSS, and JavaScript implementation
-* **Intermediate web developers** needing reference implementation of responsive layouts and card-based UI patterns
-* **Public urban park enthusiasts**, in general, **large public urban park enthusiasts**, specifically
+_Large Parks_ is intended for:
+
+* **CS50x students** looking for inspiration for their "Homepage" pset.
+* **Beginner web developers** exploring HTML, CSS, and JavaScript implementation.
+* **Intermediate web developers** needing reference implementation of responsive layouts and card-based UI patterns.
+* **Public urban park enthusiasts**, in general, **large public urban park enthusiasts**, specifically.
 
 ## Features
 
@@ -105,7 +107,7 @@ Note: Maps functionality will require configuring your API key as described in t
 
 ## Local Setup
 
-## Prerequisites
+### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
