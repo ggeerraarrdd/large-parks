@@ -49,7 +49,7 @@ _Large Parks_ is intended for:
 
 ## Features
 
-* 🌳 **Park Profiles** - Comprehensive information about locations, size, and amenities
+* 🌳 **Park Profiles** - Comprehensive information about locations, size and amenities
 * 🏛️ **Historical Context** - Detailed background information for each featured park
 * 🖼️ **Visual Galleries** - High-quality photos showcasing park landscapes and features
 * 📍 **Interactive Maps** - Embedded Google Maps for complementary context
@@ -217,9 +217,9 @@ This project is not accepting contributions at this time. It is intended solely 
   * [Add double quotes to string which is stored in variable](https://stackoverflow.com/questions/44795264/add-double-quotes-to-string-which-is-stored-in-variable)
 * For the flexible Card UI:
   * [Solving Problems With CSS Grid and Flexbox: The Card UI](https://webdesign.tutsplus.com/tutorials/solving-problems-with-css-grid-and-flexbox-the-card-ui--cms-27468)
-* For the font used for "Urbs in Hortus"
+* For the font used for "Urbs in Hortus":
   * [Konkhmer Sleokchher](https://fonts.google.com/specimen/Konkhmer+Sleokchher) designed by Suon May Sophanith
-* For writing README files
+* For writing README files:
   * Curated [list](https://github.com/matiassingers/awesome-readme) of READMEs on Github
   * [How to write a good README for your GitHub project?](https://bulldogjob.com/readme/how-to-write-a-good-readme-for-your-github-project)
 
