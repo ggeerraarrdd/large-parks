@@ -32,7 +32,9 @@ A website for large public parks in Chicago
 
 ## Description
 
-_Large Parks_ is a simple static website for large public parks overseen by the [Chicago Park District](https://www.chicagoparkdistrict.com/).
+_Large Parks_ is a non-deployed, reference implementation of a static website developed using core web technologies—HTML5, CSS3 and JavaScript—along with the Google Maps API.
+
+Its subject matter is the large, urban, historic public parks overseen by the [Chicago Park District](https://www.chicagoparkdistrict.com/).
 
 ![Large Parks](assets/large-parks_1.png)
 
@@ -41,9 +43,9 @@ _Large Parks_ is a simple static website for large public parks overseen by the 
 _Large Parks_ is intended for:
 
 * **CS50x students** looking for inspiration for their "Homepage" pset.
-* **Beginner web developers** exploring HTML, CSS, and JavaScript implementation.
-* **Intermediate web developers** needing reference implementation of responsive layouts and card-based UI patterns.
-* **Public urban park enthusiasts**, in general, **large public urban park enthusiasts**, specifically.
+* **Beginner web developers** exploring HTML, CSS and JavaScript implementation.
+* **Intermediate web developers** needing reference implementation of responsive layouts, card-based UI patterns and the Google Maps API.
+* **Public park enthusiasts**, in general, **large, urban, historic public park enthusiasts**, specifically.
 
 ## Features
 
