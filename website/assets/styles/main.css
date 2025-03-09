@@ -24,7 +24,7 @@ body {
 .header {
   padding: 30px;
   margin-bottom: 30px;
-  border: 0px;
+  border: 0;
   height: 100vh;
 }
 
@@ -53,7 +53,7 @@ body {
 /* Dropdown Menu - Start */
 .btn {
   margin-top: -20px;
-  padding: 0px;
+  padding: 0;
   font-family: 'Chivo', sans-serif;
   font-size: 80px;
   font-weight: bold;
@@ -83,6 +83,7 @@ body {
   background-color: transparent;
   color: white;
   border: 0px;
+
   --bs-dropdown-link-hover-color: #0d6efd;
   --bs-dropdown-link-hover-bg: transparent;
   --bs-dropdown-padding-y: 0rem;
@@ -155,19 +156,19 @@ body {
 
 
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (width >= 1000px) {
   .band {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (width >= 1500px) {
   .band {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (width >= 2000px) {
   .band {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -176,20 +177,19 @@ body {
 .card {
   padding: 30px;
   border: 5px;
+  border-radius: 0;
   border-style: solid;
   border-color: white;
-
   background: #F0F0F0;
   text-decoration: none;
-
   display: flex;
   flex-direction: column;
   min-height: 350px;
-
   position: relative;
   top: 0;
   transition: all .1s ease-in;
-  -webkit-border-radius: 0px;
+
+  -webkit-border-radius: 0;
 }
 
 .card-text-box {
@@ -248,9 +248,7 @@ Images for individual park pages.
 */
 .band-park {
   margin: 0 auto;
-
   display: grid;
-
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 30px;
@@ -272,17 +270,17 @@ Images for individual park pages.
 .card-park {
   padding: 30px;
   border: 5px;
+  border-radius: 0;
   border-style: solid;
   border-color: white;
-
   display: flex;
   flex-direction: column;
   min-height: 640px;
-
   position: relative;
   top: 0;
   transition: all .1s ease-in;
-  -webkit-border-radius: 0px;
+
+  -webkit-border-radius: 0;
 }
 
 .card-park-label {
