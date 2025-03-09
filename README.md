@@ -1,3 +1,12 @@
+<!-- markdownlint-disable MD041 -->
+[![GitHub release](https://img.shields.io/github/v/release/ggeerraarrdd/large-parks)](https://github.com/ggeerraarrdd/large-parks/releases)
+[![Maintenance](https://img.shields.io/badge/maintained-yes-green.svg)](https://github.com/ggeerraarrdd/large-parks/graphs/commit-activity)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ef66b516f60d4885ab49e29a87c7d3b7)](https://app.codacy.com/gh/ggeerraarrdd/large-parks/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![codecov](https://codecov.io/gh/ggeerraarrdd/large-parks/graph/badge.svg?token=4N3CUD0UE1)](https://codecov.io/gh/ggeerraarrdd/large-parks)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ggeerraarrdd_large-parks&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ggeerraarrdd_large-parks)
+[![Renovate enabled](https://img.shields.io/badge/renovate-disabled-red.svg)](https://renovatebot.com/)
+<!-- markdownlint-enable MD041 -->
+
 # Large Parks
 
 A website for large public parks in Chicago
